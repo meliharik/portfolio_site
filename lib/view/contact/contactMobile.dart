@@ -91,7 +91,6 @@ class _ContactMobileState extends ConsumerState<ContactMobile> {
                           // Use either Dart's string interpolation
                           // or the toString() method.
                           await launchUrl(Uri.parse(mailtoLink.toString()));
-
                         },
                         child: Container(
                           height: AppClass().getMqHeight(context) * 0.07,
@@ -122,20 +121,22 @@ class _ContactMobileState extends ConsumerState<ContactMobile> {
           Column(
             children: [
               Text(
-                '''Built & Developed by Jeevanandham''',
+                '''Built & Developed by Melih''',
                 style: TextStyle(
-                    color: AppColors().textColor,
-                    fontSize: 12,
-                    fontFamily: 'sfmono'),
+                  color: AppColors().textColor,
+                  fontSize: 12,
+                  fontFamily: 'sfmono',
+                ),
               ),
               Padding(
                 padding: const EdgeInsets.all(8.0),
                 child: Text(
-                  '''ref - Britney C''',
+                  '''with Flutter 💙''',
                   style: TextStyle(
-                      color: AppColors().neonColor,
-                      fontSize: 12,
-                      fontFamily: 'sfmono'),
+                    color: AppColors().neonColor,
+                    fontSize: 12,
+                    fontFamily: 'sfmono',
+                  ),
                 ),
               ),
             ],

@@ -69154,9 +69154,9 @@ k=A.oS(B.i,1.5)
 A.r()
 s=A.bV(A.bb(A.a([A.bb(A.a([q,new A.X(B.bj,o,j),new A.X(B.dP,n,j),new A.X(new A.a3(0,50,0,70),A.bI(!1,!0,A.ab(j,A.l5(A.Z("Say Hello!",A.al(j,j,B.i,j,j,j,j,j,i,j,j,10,j,j,B.x,j,j,!0,j,1,j,j,j,j,j,j),j),j,j),j,j,new A.bD(B.B,j,k,l,j,j,B.M),m.a.b*0.07,j,j,s.a.a*0.3),j,!0,j,j,j,j,j,j,j,j,j,new A.a94(),j,j,j,j,j),j)],p),B.w,B.j,B.f)],p),B.w,B.a8,B.f),1)
 A.r()
-m=A.Z("Built & Developed by Jeevanandham",A.al(j,j,B.Q,j,j,j,j,j,i,j,j,12,j,j,j,j,j,!0,j,j,j,j,j,j,j,j),j)
+m=A.Z("Built & Developed by Melih",A.al(j,j,B.Q,j,j,j,j,j,i,j,j,12,j,j,j,j,j,!0,j,j,j,j,j,j,j,j),j)
 A.r()
-return A.ab(j,A.bb(A.a([s,A.bb(A.a([m,new A.X(B.Z,A.Z("ref - Britney C",A.al(j,j,B.i,j,j,j,j,j,i,j,j,12,j,j,j,j,j,!0,j,j,j,j,j,j,j,j),j),j)],p),B.w,B.j,B.f)],p),B.w,B.b8,B.f),j,j,j,r.a.b-70,j,new A.a3(0,50,0,0),j)}}
+return A.ab(j,A.bb(A.a([s,A.bb(A.a([m,new A.X(B.Z,A.Z("with Flutter \ud83d\udc99",A.al(j,j,B.i,j,j,j,j,j,i,j,j,12,j,j,j,j,j,!0,j,j,j,j,j,j,j,j),j),j)],p),B.w,B.j,B.f)],p),B.w,B.b8,B.f),j,j,j,r.a.b-70,j,new A.a3(0,50,0,0),j)}}
 A.a94.prototype={
 $0(){var s=0,r=A.R(t.H)
 var $async$$0=A.S(function(a,b){if(a===1)return A.O(b,r)
@@ -69190,9 +69190,9 @@ k=A.oS(B.i,1.5)
 A.r()
 s=A.bb(A.a([q,new A.X(B.bj,o,j),new A.X(B.dP,n,j),new A.X(new A.a3(0,50,0,70),A.bI(!1,!0,A.ab(j,A.l5(A.Z("Say Hello!",A.al(j,j,B.i,j,j,j,j,j,i,j,j,13,j,j,B.x,j,j,!0,j,1,j,j,j,j,j,j),j),j,j),j,j,new A.bD(B.B,j,k,l,j,j,B.M),m.a.b*0.09,j,j,s.a.a*0.15),j,!0,j,j,j,j,j,j,j,j,j,new A.a95(),j,j,j,j,j),j)],p),B.w,B.j,B.f)
 A.r()
-m=A.Z("Built & Developed by Jeevanandham",A.al(j,j,B.Q,j,j,j,j,j,i,j,j,12,j,j,j,j,j,!0,j,j,j,j,j,j,j,j),j)
+m=A.Z("Built & Developed by Melih",A.al(j,j,B.Q,j,j,j,j,j,i,j,j,12,j,j,j,j,j,!0,j,j,j,j,j,j,j,j),j)
 A.r()
-return A.ab(j,A.bb(A.a([s,A.bb(A.a([m,new A.X(B.Z,A.Z("ref - Britney C",A.al(j,j,B.i,j,j,j,j,j,i,j,j,12,j,j,j,j,j,!0,j,j,j,j,j,j,j,j),j),j)],p),B.w,B.j,B.f)],p),B.w,B.b8,B.f),j,j,j,r.a.b-70,j,new A.a3(0,30,0,0),j)}}
+return A.ab(j,A.bb(A.a([s,A.bb(A.a([m,new A.X(B.Z,A.Z("with Flutter \ud83d\udc99",A.al(j,j,B.i,j,j,j,j,j,i,j,j,12,j,j,j,j,j,!0,j,j,j,j,j,j,j,j),j),j)],p),B.w,B.j,B.f)],p),B.w,B.b8,B.f),j,j,j,r.a.b-70,j,new A.a3(0,30,0,0),j)}}
 A.a95.prototype={
 $0(){var s=0,r=A.R(t.H)
 var $async$$0=A.S(function(a,b){if(a===1)return A.O(b,r)

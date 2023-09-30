@@ -27,21 +27,23 @@ class _AboutMobileState extends State<AboutMobile> {
             children: [
               RichText(
                 text: TextSpan(
-                    text: "01.",
-                    style: TextStyle(
-                        color: AppColors().neonColor,
-                        fontSize: 20,
-                        fontFamily: 'sfmono'),
-                    children: <TextSpan>[
-                      TextSpan(
-                        text: ' About Me',
-                        style: GoogleFonts.robotoSlab(
-                            color: Colors.white,
-                            letterSpacing: 1,
-                            fontWeight: FontWeight.bold,
-                            fontSize: 25),
-                      )
-                    ]),
+                  text: "01.",
+                  style: TextStyle(
+                      color: AppColors().neonColor,
+                      fontSize: 20,
+                      fontFamily: 'sfmono'),
+                  children: <TextSpan>[
+                    TextSpan(
+                      text: ' About Me',
+                      style: GoogleFonts.robotoSlab(
+                        color: Colors.white,
+                        letterSpacing: 1,
+                        fontWeight: FontWeight.bold,
+                        fontSize: 25,
+                      ),
+                    )
+                  ],
+                ),
               ),
               Container(
                 height: 0.5,
@@ -97,59 +99,66 @@ class _AboutMobileState extends State<AboutMobile> {
                     Padding(
                       padding: const EdgeInsets.only(top: 20.0),
                       child: GridView.count(
-                          crossAxisCount: 2,
-                          shrinkWrap: true,
-                          childAspectRatio: 10,
-                          children: [
-                            Row(
-                              children: [
-                                Icon(Icons.arrow_right),
-                                Text(' Flutter',
-                                    style: GoogleFonts.robotoFlex(
-                                      color: AppColors().textLight,
-                                      letterSpacing: 1,
-                                      height: 1.5,
-                                      fontSize: 14,
-                                    )),
-                              ],
-                            ),
-                            Row(
-                              children: [
-                                Icon(Icons.arrow_right),
-                                Text(Strings.tech2,
-                                    style: GoogleFonts.robotoFlex(
-                                      color: AppColors().textLight,
-                                      letterSpacing: 1,
-                                      height: 1.5,
-                                      fontSize: 14,
-                                    )),
-                              ],
-                            ),
-                            Row(
-                              children: [
-                                Icon(Icons.arrow_right),
-                                Text(Strings.tech3,
-                                    style: GoogleFonts.robotoFlex(
-                                      color: AppColors().textLight,
-                                      letterSpacing: 1,
-                                      height: 1.5,
-                                      fontSize: 14,
-                                    )),
-                              ],
-                            ),
-                            Row(
-                              children: [
-                                Icon(Icons.arrow_right),
-                                Text(Strings.tech4,
-                                    style: GoogleFonts.robotoFlex(
-                                      color: AppColors().textLight,
-                                      letterSpacing: 1,
-                                      height: 1.5,
-                                      fontSize: 14,
-                                    )),
-                              ],
-                            ),
-                          ]),
+                        crossAxisCount: 2,
+                        shrinkWrap: true,
+                        childAspectRatio: 10,
+                        children: [
+                          Row(
+                            children: [
+                              Icon(Icons.arrow_right),
+                              Text(
+                                ' Flutter',
+                                style: GoogleFonts.robotoFlex(
+                                  color: AppColors().textLight,
+                                  letterSpacing: 1,
+                                  height: 1.5,
+                                  fontSize: 14,
+                                ),
+                              ),
+                            ],
+                          ),
+                          Row(
+                            children: [
+                              Icon(Icons.arrow_right),
+                              Text(
+                                Strings.tech2,
+                                style: GoogleFonts.robotoFlex(
+                                  color: AppColors().textLight,
+                                  letterSpacing: 1,
+                                  height: 1.5,
+                                  fontSize: 14,
+                                ),
+                              ),
+                            ],
+                          ),
+                          Row(
+                            children: [
+                              Icon(Icons.arrow_right),
+                              Text(Strings.tech3,
+                                  style: GoogleFonts.robotoFlex(
+                                    color: AppColors().textLight,
+                                    letterSpacing: 1,
+                                    height: 1.5,
+                                    fontSize: 14,
+                                  )),
+                            ],
+                          ),
+                          Row(
+                            children: [
+                              Icon(Icons.arrow_right),
+                              Text(
+                                Strings.tech4,
+                                style: GoogleFonts.robotoFlex(
+                                  color: AppColors().textLight,
+                                  letterSpacing: 1,
+                                  height: 1.5,
+                                  fontSize: 14,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ],
+                      ),
                     ),
                   ],
                 ),
